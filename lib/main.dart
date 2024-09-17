@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:saat_bara_utara/app/features/splash/presentation/page/splash_screen.dart';
 import 'package:saat_bara_utara/config/theme/theme.dart';
 import 'package:saat_bara_utara/di/injection_container.dart' as di;
+
 import 'config/app_config.dart';
 import 'config/theme/theme_provider.dart';
 
@@ -39,5 +39,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-

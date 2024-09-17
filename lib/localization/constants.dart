@@ -1,10 +1,7 @@
 class Texts {
-  String get w1Title => 'Welcome to 712';
-
-
-
-
+  String get appName => '7/12 उतरा महाराष्ट्र';
+  String get home => 'Home';
+  String get mahaBhumi => 'MahaBhumi';
 }
 
 final texts = Texts();
-
